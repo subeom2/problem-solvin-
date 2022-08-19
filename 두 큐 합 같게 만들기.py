@@ -19,8 +19,3 @@ def solution(queue1, queue2):
             return answer
     else:
         return -1
-            
-            
-queue2 =[3, 2, 7, 2]
-queue1 =[4, 6, 5, 1]
-print(solution(queue1, queue2))
