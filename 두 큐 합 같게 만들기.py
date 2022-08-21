@@ -4,7 +4,7 @@ def solution(queue1, queue2):
     answer = 0
     pointer1 = 0
     pointer2 = 0
-    while pointer1+pointer2<600000:
+    while pointer2<300000:
         if sum_q1>target:
             sum_q1-=queue1[pointer1]
             queue2.append(queue1[pointer1])
