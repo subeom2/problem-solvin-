@@ -8,13 +8,13 @@ def solution(progresses, speeds):
             n+=1
         date.append(n)
     m=1
-    a=date[:1]
+    a=date[0]
     for i in range(1,len(date)):
-        if a>=date[i:i+1]:
+        if a>=date[i]:
             m+=1
         else:
             answer.append(m)
             m=1
-            a=date[i:i+1]
+            a=date[i]
     answer.append(m)
     return answer
