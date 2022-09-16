@@ -1,6 +1,5 @@
 def solution(s):
     answer=''
-    s = s.lower()
     s = s.split(' ')
     for i in range(len(s)):
         r = s[i].capitalize()
